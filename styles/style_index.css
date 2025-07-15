@@ -27,6 +27,7 @@ html, body{
     margin: 5%;
     padding: 20px;
     justify-content: center;
+    object-fit: contain;
 }
 
 .imagem_cidade{
@@ -35,6 +36,8 @@ html, body{
     margin: 0 0 0 5%;
     border-radius: 20px;
     width: 50%;
+    object-fit: contain;
+
 }
 
 .imagem_barco{
@@ -143,7 +146,7 @@ strong{
         gap: 25px;
     }
     .imagem_cidade{
-        width: 65%;
+        width: 85%;
         margin: 0 auto;
     }
     .imagem_barco{
